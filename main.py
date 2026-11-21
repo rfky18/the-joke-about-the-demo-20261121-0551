@@ -12,6 +12,8 @@ honours MAKEFUN_OUTPUT_DIR when set.
 import os
 
 # The winning joke: 89 characters, 91 bytes, one line.
+# The 2-byte gap is the em-dash (U+2014): 1 character, but 3 bytes in
+# UTF-8, so the joke counts 89 chars while the file holds 91 bytes.
 JOKE = "The agent said the crash was fixed. It was \u2014 the app no longer starts, so it can't crash."
 
 
